@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto?query=Roboto);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+}
+
+main {
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.insta-wrapper {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.insta-phone {  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.insta-login {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2%;
+}
+
+.group {
+    background-color: #ffffff;;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 3rem;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+#insta-logo {
+    height: 3.5rem;
+    margin-top: 15px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input{
+    background-color: #fafafa;
+    height: 35px;
+    margin-bottom: 6px;
+    border: 1px solid lightgray;
+    border-radius: 3px; 
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+input:nth-child(3){
+    background-color: #b2dffc;
+    margin-top: 12px;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#ou {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+    color: #9994a9;
+    font-weight: 550;
+} 
+ 
+#ou span {
+    background:#ffffff; 
+    padding:0 20px;  
+}
+
+#facebook-login {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 20px;
+    color:#385185;
+    font-weight: bold;
+}
+
+#facebook-login img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 10px;
+}
+
+#senha {
+    font-size: 12px;
+    color: #223150;
+}
+
+.group:nth-child(3){
+    border: none;
+    background-color: #fafafa;
+}
+
+#get-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#get-app img {
+    width: 150px;
+    margin: 20px 3px 0px;
+}
+
+footer {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 100px 100px 100px;
+    color: gray;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 10px 5px;
+}
