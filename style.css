@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url(https://fonts.google.com/specimen/Roboto?query=Roboto);
+    src: url('Roboto-Regular.ttf');
 }
 
 * {
@@ -35,14 +35,32 @@ main {
     align-items: center;
     justify-content: start;
 }
-
-.insta-phone {  
+/*---------------------------------------*/
+.insta-phone { 
+    width: 50%;
+    height: 100vh;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 50%;
+    justify-content: center;
+    background-image: url('img/cell.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.insta-phone img {
+    position: absolute;
+    opacity: 0;
+    margin-left: 95px;
+    margin-top: 10px;
+
+    transition: opacity 1600ms;
+}
+
+.insta-phone img.selected {
+    opacity: 1;
+}
+/*--------------------------------*/
 .insta-login {
     width: 50%;
     display: flex;
