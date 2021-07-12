@@ -178,3 +178,31 @@ footer p{
     font-size: 12px;
     margin: 10px 5px;
 }
+
+@media (max-width: 1024px) {
+    .insta-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .insta-wrapper {
+        width: 90%;
+    }
+
+    .insta-phone {
+        display: none;
+    }
+
+    .insta-login {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
