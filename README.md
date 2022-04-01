@@ -10,10 +10,10 @@ Instagram Clone foi um desafio de projeto para a reconstrução da página de lo
  
 ### Projeto
 
-<img src=https://user-images.githubusercontent.com/37826931/158647374-2aae0a57-5243-4a8e-a87c-7fb092ec0c24.png>
+<img src="https://user-images.githubusercontent.com/37826931/161333377-d445e932-b83f-4ef6-9b56-90a8f94b3b17.png" width=800px>
 
 ### Melhoramentos
 - Inserção de um carrosel de imagens com JS e; 
 - Um footer semelhante a da página original.
 
-<img src=https://user-images.githubusercontent.com/37826931/158647455-c8716769-803c-4e7b-bd18-93dc730df94e.png>
+<img src="https://user-images.githubusercontent.com/37826931/161333475-abff90ae-b3d6-4011-bb89-9149efd61f91.png" width=800px>
